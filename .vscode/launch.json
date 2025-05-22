@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+            "userDataDir": true,
+            "skipFiles": [
+                "node_modules/**",
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
